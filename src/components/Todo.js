@@ -1,8 +1,11 @@
 import React from 'react';
 
-function Todo (){
+function Todo ({text}){
     return(
-        <h1>Test 123</h1>
+        <div className="todo">
+            <li className="todo-item">{text}</li>
+            <button className="trash-btn"><i className="fa fa-trash fa-lg"></i></button>
+        </div>
     );
 }
 
