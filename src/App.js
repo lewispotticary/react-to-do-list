@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <h1>React To-Do-List</h1>
       <Form setInputText={setInputText} inputText={inputText} todos={todos} setTodos={setTodos}/>
-      <TodoList todos={todos}/>
+      <TodoList setTodos={setTodos} todos={todos}/>
     </div>
   );
 }
