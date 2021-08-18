@@ -8,7 +8,7 @@ function Form ({setInputText, inputText, todos, setTodos}){
 
     const submitTodoHandler = (e) => {
         setTodos([
-            ...todos, {text: inputText, id: Math.random() * 1000}
+            ...todos, {text: inputText, completed: false, id: Math.random() * 1000}
         ])
         setInputText("");
     }

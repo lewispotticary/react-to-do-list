@@ -49,8 +49,17 @@ i {
   background-color: white;
   color: black;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex;
   margin-top: 2rem;
   font-size: 1.2rem;
   padding: 0.2rem;
+}
+
+.complete-btn {
+  margin-left: auto;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
