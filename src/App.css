@@ -63,3 +63,7 @@ i {
   text-decoration: line-through;
   opacity: 0.5;
 }
+
+select {
+  margin-left: 1rem;
+}
