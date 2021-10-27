@@ -1,5 +1,5 @@
 # React To-Do List
-Web app that displays the temperature of the current location. Uses Met Office API for temperature data and Google Geocoding API for location data.
+A simple to-do list web app created in react. Created using Dev Ed tutorial. 
 
 # Screenshot:
 
